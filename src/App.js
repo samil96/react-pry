@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import Title from './components/title';
+import Layaout from './components/layout';
+import TaskList from './components/task-list';
+import Input from './components/input';
 
 /*
 Variables:
@@ -21,8 +25,11 @@ class App extends Component {
     })
   }
 
-  /*Funcion para evitar que se recargue la pagina con onsubmit y asi también evitar que se
-  publique dos veces. 
+  /*Funcion para evitar que se recargue la pagina con preventDefault y asi también evitar que se
+  publique dos veces. Otra función de handleSubmit es para 
+  almacenar los datos del input en nuestro arreglo de tareas en el estado.
+  Esta función guarda una copia de las tareas actuales en newTasks y luego desplazar que el 
+  contenido escrito del input en el arreglo (tasks) 
   */
   handleSubmit = (event) => {
     event.preventDefault();
@@ -34,29 +41,40 @@ class App extends Component {
     })
   }
 
+  handleDelete = (id) => {
+    let newTasks = this.state.tasks;
+    newTasks.splice(id, 1)
+    this.setState({
+      tasks: newTasks,
+    })
+  }
+
+/* con el evento onchange se agrega un nuevos elementos al tasks, por medio de submit del input
+onsubmit hara enter para agregar nuevo elemento, esto se hace con la función handleSubmit
+*/
+
+/*
+La función map genera un nuevo componente con su contenido, que recibe como parametro una
+función que se ejecutar cada elemento del arreglo
+
+*/
   render() {
     return (
-      <div className="container">
-        <h1 className="title">Hola Lesly, eres un ángel <span aria-label="emoji" role="img">😍😍</span></h1>
-        <form onSubmit={this.handleSubmit}>
-          <input 
-            value= {this.state.newTask}
-            onChange={this.handleTaskChange}
-            type="text"
-            className="new-task"
-          />
-        </form>
-        <h2 className="test-label">{this.state.newTask}</h2>
-        {
-          this.state.tasks.map(task =>
-            <div className="task-container">
-            <h3 className="task">{task}</h3>
-            </div>
-           )
-        }  
-      </div>
+      <Layaout>
+        <Title/>
+        <Input
+          handleSubmit={this.handleSubmit}
+          handleTaskChange={this.handleTaskChange}
+          value={this.state.newTask}
+        />
+        <TaskList 
+          tasks={this.state.tasks}
+          handleDelete={this.handleDelete}
+        />
+      </Layaout>
     );
   }
+  
 }
 
 export default App;
