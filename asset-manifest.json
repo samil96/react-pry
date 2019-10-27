@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/samil96/react-pry.git/static/css/main.3dfe3662.chunk.css",
-    "main.js": "/samil96/react-pry.git/static/js/main.6584f7c1.chunk.js",
-    "main.js.map": "/samil96/react-pry.git/static/js/main.6584f7c1.chunk.js.map",
-    "runtime~main.js": "/samil96/react-pry.git/static/js/runtime~main.815b6fb2.js",
-    "runtime~main.js.map": "/samil96/react-pry.git/static/js/runtime~main.815b6fb2.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/samil96/react-pry.git/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/samil96/react-pry.git/static/js/2.65aa1cca.chunk.js.map",
-    "index.html": "/samil96/react-pry.git/index.html",
-    "precache-manifest.c3e7b40253080752d8d06846618e626e.js": "/samil96/react-pry.git/precache-manifest.c3e7b40253080752d8d06846618e626e.js",
-    "service-worker.js": "/samil96/react-pry.git/service-worker.js",
-    "static/css/main.3dfe3662.chunk.css.map": "/samil96/react-pry.git/static/css/main.3dfe3662.chunk.css.map"
+    "main.css": "/samil96/react-pry.git/./static/css/main.3dfe3662.chunk.css",
+    "main.js": "/samil96/react-pry.git/./static/js/main.235d0918.chunk.js",
+    "main.js.map": "/samil96/react-pry.git/./static/js/main.235d0918.chunk.js.map",
+    "runtime~main.js": "/samil96/react-pry.git/./static/js/runtime~main.a4887342.js",
+    "runtime~main.js.map": "/samil96/react-pry.git/./static/js/runtime~main.a4887342.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/samil96/react-pry.git/./static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/samil96/react-pry.git/./static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/samil96/react-pry.git/./index.html",
+    "precache-manifest.ba0996025159407fe3be9c8b01c18426.js": "/samil96/react-pry.git/./precache-manifest.ba0996025159407fe3be9c8b01c18426.js",
+    "service-worker.js": "/samil96/react-pry.git/./service-worker.js",
+    "static/css/main.3dfe3662.chunk.css.map": "/samil96/react-pry.git/./static/css/main.3dfe3662.chunk.css.map"
   }
 }
