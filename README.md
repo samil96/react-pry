@@ -31,8 +31,8 @@ npm run deploy
 ```
 *NOTA:*
 Después de finalizar tu proyecto y subirlo a tu repositorio.Y realizar todos los pasos anteriores. Al finalizar ya no es necesario hacer otro commit, se enlaza por si sola. Y puedo dejarlo normal.
-
-Esta información lo saque del siguiente enlace: (https://platzi.com/tutoriales/1548-react/4065-guia-para-usar-github-pages-en-tus-proyectos-de-reactjs/)
+Esta información lo saque del siguiente enlace: 
+https://platzi.com/tutoriales/1548-react/4065-guia-para-usar-github-pages-en-tus-proyectos-de-reactjs/
 ---------------------------------------------------------------------------------------------------------------------------------
 Nota Personal: tuve algunas vulnerabilidades con **npm** y lo arregle de esta manera:
 1) En el terminal dentro de proyecto puse el siguiente comando para ver los detalles de las vulnerabilidades:
