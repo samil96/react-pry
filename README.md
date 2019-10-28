@@ -1,4 +1,4 @@
-# React-Pry
+# React-ToDoList
 Para obteneder las librerias de React.js se debe instalar **node.js**
 Por medio de un terminal, dirigirse a la diección local:
 1. Paso: Cuando ya tengas node.js, instalar el npm
@@ -11,7 +11,6 @@ Después, tienes los siguientes directorios:
 * src: Aquí trabajarás todo tu proyecto, y contiene los archivos iniciales para trabajar con react.
 ---------------------------------------------------------------------------------------------------------------------------------
 ### Aquí colocare los pasos para ubicarlo con PAGES ⚙️
-# React-Todolist
 ### Pasos para publicar pages con react.js
 a) En el terminal, instalar gh-pages con el comando:
 ```
